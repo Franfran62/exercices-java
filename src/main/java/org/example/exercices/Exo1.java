@@ -2,7 +2,7 @@ package org.example.exercices;
 
 import java.util.*;
 
-public class exercices {
+public class Exo1 {
 
     static Scanner scanner = new Scanner(System.in);
 
@@ -37,7 +37,7 @@ public class exercices {
 
 
         int prixTTC = (prixHT + (prixHT * tauxTVA / 100)) * nbArticles;
-        ;
+
         System.out.println(" Le prix TTC est de : " + prixTTC);
     }
 
