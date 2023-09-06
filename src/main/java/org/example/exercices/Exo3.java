@@ -47,16 +47,16 @@ public class Exo3 {
     public static void exercice3() {
 
         String[] tabInitial = {"D","E","C","A","L","A","G","E"};
-        String[] tabModifié = new String[tabInitial.length];
+        String[] tabModifie = new String[tabInitial.length];
 
-        tabModifié[(tabInitial.length) -1] = tabInitial[0] ;
+        tabModifie[(tabInitial.length) -1] = tabInitial[0] ;
 
         for (int i = 0; i < (tabInitial.length - 1); i++)
         {
-            tabModifié[i] = tabInitial[i+1];
+            tabModifie[i] = tabInitial[i+1];
         }
 
-        for (String s : tabModifié) {
+        for (String s : tabModifie) {
             System.out.print(s + " ");
         }
     }
