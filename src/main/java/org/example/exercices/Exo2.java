@@ -101,4 +101,62 @@ public class Exo2 {
         }
         System.out.println(" Le résultat selon votre nombre de départ est : " + resultat);
     }
+
+    public static void exercices510() {
+
+        System.out.println("Quel est le prix de l'article HT ?");
+        int prixHT = scanner.nextInt();
+
+        System.out.println("Combien avez-vous d'articles ? ");
+        int nbArticles = scanner.nextInt();
+
+        System.out.println("Quel est le taux de TVA ?");
+        int tauxTVA = scanner.nextInt();
+
+
+        int prixTTC = (prixHT + (prixHT * tauxTVA / 100)) * nbArticles;
+
+        System.out.println(" Le prix TTC est de : " + prixTTC);
+
+        System.out.println("Combien payez-vous ?");
+        float argent = scanner.nextFloat();
+
+        float differenceMonnaie = argent - prixTTC;
+
+        while (differenceMonnaie < 0) {
+            System.out.println("Vous n'avez pas donné assez d'argent");
+            System.out.println("Combien payez-vous ?");
+
+            argent = scanner.nextFloat();
+
+            differenceMonnaie = argent - prixTTC;
+        }
+
+        float[] currency = {500, 200, 100, 50, 20, 10, 2, 1, 0.5F, 0.2F, 0.1F, 0.05F, 0.02F, 0.01F };
+
+        if (differenceMonnaie == 0) {
+
+            System.out.println("Il n'y a pas de monnaie à rendre");
+
+        } else {
+
+            System.out.println("Il faut rendre "+ differenceMonnaie + " euros.");
+
+            for (float valeurCurrency : currency) {
+
+                int quantiteARendre = (int) (differenceMonnaie / valeurCurrency);
+
+                if (quantiteARendre > 0) {
+
+                    differenceMonnaie = differenceMonnaie - (quantiteARendre * valeurCurrency);
+
+                    if (valeurCurrency > 2) {
+                        System.out.println(" Il faut rendre " + quantiteARendre + " billets de " + valeurCurrency + " euros.");
+                    } else {
+                        System.out.println(" Il faut rendre " + quantiteARendre + " pièces de " + valeurCurrency + " euros.");
+                    }
+                }
+            }
+        }
+    }
 }

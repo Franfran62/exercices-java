@@ -32,23 +32,26 @@ public class Main {
 // --------------------------------------------------------------------------
         System.out.println("----------------------Exo2---------------------");
 
-        System.out.println("Exercice 1");
-        Exo2.exercice1();
+//        System.out.println("Exercice 1");
+//        Exo2.exercice1();
+//
+//        System.out.println("Exercice 2");
+//        Exo2.exercice2();
+//
+//        System.out.println("Exercice 3");
+//        Exo2.exercice3();
+//
+//        System.out.println("Exercice 4");
+//        Exo2.exercice4();
+//
+//        System.out.println("Exercice 5");
+//        Exo2.exercice5();
+//
+//        System.out.println("Exercice 6");
+//        Exo2.exercice6();
 
-        System.out.println("Exercice 2");
-        Exo2.exercice2();
-
-        System.out.println("Exercice 3");
-        Exo2.exercice3();
-
-        System.out.println("Exercice 4");
-        Exo2.exercice4();
-
-        System.out.println("Exercice 5");
-        Exo2.exercice5();
-
-        System.out.println("Exercice 6");
-        Exo2.exercice6();
+        System.out.println("Exercice 5.10");
+        Exo2.exercices510();
 
 
 
