@@ -2,6 +2,7 @@ package org.example;
 
 import org.example.exercices.Exo1;
 import org.example.exercices.Exo2;
+import org.example.exercices.Exo3;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -50,8 +51,18 @@ public class Main {
 //        System.out.println("Exercice 6");
 //        Exo2.exercice6();
 
-        System.out.println("Exercice 5.10");
-        Exo2.exercices510();
+//        System.out.println("Exercice 5.10");
+//        Exo2.exercices510();
+//
+// --------------------------------------------------------------------------
+        System.out.println("----------------------Exo3---------------------");
+
+//        System.out.println("Exercice 1");
+//        Exo3.exercice1();
+
+        Exo3.exercice3();
+
+
 
 
 
