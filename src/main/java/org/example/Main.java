@@ -3,6 +3,7 @@ package org.example;
 import org.example.exercices.Exo1;
 import org.example.exercices.Exo2;
 import org.example.exercices.Exo3;
+import org.example.exercices.ExoString;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -60,9 +61,26 @@ public class Main {
 //        System.out.println("Exercice 1");
 //        Exo3.exercice1();
 
-        Exo3.exercice3();
+//          System.out.println("Exercice 3");
+//          Exo3.exercice3();
 
+        // --------------------------------------------------------------------------
+        System.out.println("----------------------Exo-String---------------------");
 
+        //System.out.println("Exercice Comptage de mot");
+        // ExoString.exerciceComptageDeMot();
+
+        //System.out.println("Exercice Occurrence");
+        //ExoString.exerciceComptageOccurrence();
+
+        //System.out.println("Exercice Anagramme");
+        // ExoString.exerciceAnagramme("chien","niche");
+
+        //System.out.println("Exercice Palindrome");
+        //ExoString.exercicePalindrome("kayak", "kayak");
+
+        System.out.println("Exercice Pyramide");
+        ExoString.exercicePyramide();
 
 
 
